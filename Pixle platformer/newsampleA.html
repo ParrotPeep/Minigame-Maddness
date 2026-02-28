@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixle Platformer - New Sample A</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; }
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #b8d7db;
+      font-family: Verdana, sans-serif;
+    }
+    #game {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" aria-label="Platformer game canvas"></canvas>
+
+  <script>
+    window.MAP_IMAGE    = "./NewsamppleA.png";
+    window.HITBOX_IMAGE = "./newhitboxsampple a.png";
+    window.WALK_FRAME_0 = "./Tiles/Characters/tile_0000.png";
+    window.WALK_FRAME_1 = "./Tiles/Characters/tile_0001.png";
+  </script>
+  <script src="../Pixle platformer starter/game.js"></script>
+</body>
+</html>
